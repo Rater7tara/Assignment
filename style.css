@@ -1,0 +1,104 @@
+h1{
+    font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+h3{
+    height: 153px;
+width: 315px;
+left: 564px;
+top: 1740.5px;
+border-radius: nullpx;
+
+}
+p{
+    font-size: 20px;
+    color: #f1f1f1;
+    
+}
+.p1{
+    color: black;
+    font-size: 20px;
+}
+body{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url(images/donation0.jpg);
+    filter: blur(2px);
+    -webkit-filter: blur(2.5px);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.button{
+    border-radius: 10px;
+  color: rgb(253, 253, 253);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color:rgb(255, 115, 0);
+  text-shadow: rgba(0,0,0, 0.4);
+    
+}
+.b2{
+    height: 150%;
+    box-sizing: border-box;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.tk{
+    border-color:rgb(241, 11, 96);
+    color: rgb(241, 11, 96);
+    padding: 35px 20px;
+    text-align: center;
+    text: size adjust 30px;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    background-color:rgb(235, 176, 198);
+    text-shadow: rgba(0,0,0, 0.4);
+}
+.plan{
+    
+    height: 352px;
+    width: 360px;
+    left: 157px;
+    
+}
+image{
+    float: right;
+    padding: 15px;
+}
+.intro {
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 1595.5px;
+    border-radius: 5px;
+    background: rgb(79, 157, 166, 0.1);
+}
