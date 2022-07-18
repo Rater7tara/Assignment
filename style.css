@@ -1,13 +1,14 @@
 h1{
     font-family: 'Edu QLD Beginner', cursive;
-font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 h3{
     height: 153px;
-width: 315px;
-left: 564px;
-top: 1740.5px;
-border-radius: nullpx;
+    width: 315px;
+    left: 564px;
+    top: 1740.5px;
+    border-radius: nullpx;
 
 }
 p{
@@ -35,30 +36,37 @@ body{
 }
 .bg-text{
     background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
 .button{
     border-radius: 10px;
-  color: rgb(253, 253, 253);
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  background-color:rgb(255, 115, 0);
-  text-shadow: rgba(0,0,0, 0.4);
+    color: rgb(253, 253, 253);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color:rgba(255, 89, 89, 1);
+    text-shadow: rgba(0,0,0, 0.4);
     
+}
+.border{
+    width: 18cm;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .b2{
     height: 150%;
@@ -71,16 +79,20 @@ body{
     text-align: center;
 }
 .tk{
-    border-color:rgb(241, 11, 96);
-    color: rgb(241, 11, 96);
+    background:linear-gradient(0deg, #FFEEEE, #FFEEEE);
+    
+
+
+border-color:#FF5959;
+color:#FF5959;
     padding: 35px 20px;
     text-align: center;
-    text: size adjust 30px;
+    text-size-adjust: 30px;
     display: inline-block;
     font-size: 30px;
     margin: 4px 2px;
     border-radius: 10px;
-    background-color:rgb(235, 176, 198);
+    
     text-shadow: rgba(0,0,0, 0.4);
 }
 .plan{
@@ -93,12 +105,75 @@ body{
 image{
     float: right;
     padding: 15px;
+
 }
-.intro {
-  width: 200px;
-  height: 70px;
-  position: absolute;
-  top: 1595.5px;
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: space-between;
+}
+#food{
+    background: rgba(79, 157, 166, 0.1);
+    height: 352px;
+    width: 360px;
+    left: 157px;
+    top: 1595.5px;
     border-radius: 5px;
-    background: rgb(79, 157, 166, 0.1);
+    text-align: center;
+    justify-content: center;
+
+}
+
+#shelter{
+    background: rgba(255, 89, 89, 0.1);
+    height: 352px;
+    width: 360px;
+    left: 157px;
+    top: 1595.5px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    
+}
+#education{
+    background: rgb(255, 236, 184);
+    height: 352px;
+    width: 360px;
+    left: 157px;
+    top: 1595.5px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.flex-container2{
+    display: flexbox;
+    background: rgb(255, 236, 184);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: radius 2px;
+    box-sizing: border-box;
+    top: 70%;
+    left: 70%;
+    width: 50%;
+    padding: 50px;
+    
+
+}
+footer{
+    display: flexbox;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+    width: 1400px;
+    left: 0px;
+    
+    border-radius: 0px;
+    text-align: center;
+
 }
