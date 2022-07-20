@@ -107,21 +107,21 @@ image{
     padding: 15px;
 
 }
+
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex: auto;
-    justify-content: space-between;
+    justify-content: space-around;
+
 }
 #food{
+
     background: rgba(79, 157, 166, 0.1);
     height: 352px;
     width: 360px;
-    left: 157px;
-    top: 1595.5px;
+
     border-radius: 5px;
     text-align: center;
     justify-content: center;
@@ -132,8 +132,7 @@ image{
     background: rgba(255, 89, 89, 0.1);
     height: 352px;
     width: 360px;
-    left: 157px;
-    top: 1595.5px;
+
     border-radius: 5px;
     text-align: center;
     justify-content: center;
@@ -143,14 +142,24 @@ image{
     background: rgb(255, 236, 184);
     height: 352px;
     width: 360px;
-    left: 157px;
-    top: 1595.5px;
+   
     border-radius: 5px;
     text-align: center;
     justify-content: center;
 }
+.h3-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 153px;
+    width: 315px;
+    left: 564px;
+    top: 1740.5px;
+    border-radius: nullpx;
+
+}
 .flex-container2{
-    display: flexbox;
+   display: flex;
     background: rgb(255, 236, 184);
     text-align: center;
     justify-content: center;
@@ -165,14 +174,39 @@ image{
     
 
 }
+
+#dona9{
+    display: block;
+    position: absolute;
+    height: 300px;
+width: 300px;
+left: 732px;
+top: 2000px;
+border-radius: [object Object]px;
+
+}
+.their-lives{
+    
+    position: absolute;
+    height: 374px;
+width: 493px;
+left: 200px;
+top: 2130px;
+border-radius: 5px;
+
+
+}
+
+
 footer{
-    display: flexbox;
+    display: flex;
+    flex-direction: end;
     justify-content: center;
+    
     background-color: black;
     height: 100px;
     width: 1400px;
-    left: 0px;
-    
+
     border-radius: 0px;
     text-align: center;
 
